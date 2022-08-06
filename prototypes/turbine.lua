@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "geothermal-heat-exchanger",
-    icon = "__Geothermal__/graphics/icons/geothermal-turbine.png",
+    icon = "__LunaLightblade-Geothermal__/graphics/icons/geothermal-turbine.png",
 	icon_size = 32,
     flags = {},
     subgroup = "energy",
@@ -39,7 +39,7 @@ data:extend(
     {
     type = "assembling-machine",
     name = "geothermal-heat-exchanger",
-    icon = "__Geothermal__/graphics/icons/geothermal-turbine.png",
+    icon = "__LunaLightblade-Geothermal__/graphics/icons/geothermal-turbine.png",
 	icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "geothermal-heat-exchanger"},
@@ -51,7 +51,7 @@ data:extend(
 
     animation =
     {
-      filename = "__Geothermal__/graphics/entity/heat-exchanger/exchanger-horizontal.png",
+      filename = "__LunaLightblade-Geothermal__/graphics/entity/heat-exchanger/exchanger-horizontal.png",
       priority = "high",
       width = 128,
       height = 128,
@@ -67,11 +67,11 @@ data:extend(
       sound =
       {
         {
-          filename = "__Geothermal__/sound/exchanger.ogg",
+          filename = "__LunaLightblade-Geothermal__/sound/exchanger.ogg",
           volume = 1.0
         }
       },
-      idle_sound = { filename = "__Geothermal__/sound/exchanger-idle.ogg", volume = 0.6 },
+      idle_sound = { filename = "__LunaLightblade-Geothermal__/sound/exchanger-idle.ogg", volume = 0.6 },
       apparent_volume = 1.5,
     },
     crafting_speed = 4,

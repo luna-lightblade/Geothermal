@@ -3,7 +3,7 @@ data:extend(
    {
     type = "item",
     name = "geothermal-well",
-    icon = "__Geothermal__/graphics/icons/geothermal-well.png",
+    icon = "__LunaLightblade-Geothermal__/graphics/icons/geothermal-well.png",
 	icon_size = 32,
     flags = {},
     subgroup = "extraction-machine",
@@ -38,7 +38,7 @@ data:extend(
   {
     type = "mining-drill",
     name = "geothermal-well",
-    icon = "__Geothermal__/graphics/icons/geothermal-well.png",
+    icon = "__LunaLightblade-Geothermal__/graphics/icons/geothermal-well.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "geothermal-well"},
@@ -98,7 +98,7 @@ data:extend(
     },--]]
     radius_visualisation_picture =
     {
-      filename = "__Geothermal__/graphics/entity/geothermal/geothermal-well-radius-visualization.png",
+      filename = "__LunaLightblade-Geothermal__/graphics/entity/geothermal/geothermal-well-radius-visualization.png",
       width = 12,
       height = 12
     },
@@ -106,7 +106,7 @@ data:extend(
     {
       sheet =
       {
-        filename = "__Geothermal__/graphics/entity/geothermal/geothermal-well-base.png",
+        filename = "__LunaLightblade-Geothermal__/graphics/entity/geothermal/geothermal-well-base.png",
         priority = "extra-high",
         width = 114,
         height = 113,
@@ -122,7 +122,7 @@ data:extend(
         height = 110,
         line_length = 10,
         shift = {0.125, -0.71875},
-        filename = "__Geothermal__/graphics/entity/geothermal/geothermal-well-animation.png",
+        filename = "__LunaLightblade-Geothermal__/graphics/entity/geothermal/geothermal-well-animation.png",
         frame_count = 40,
         animation_speed = 0.5
       }
@@ -130,7 +130,7 @@ data:extend(
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound =
     {
-      sound = { filename = "__Geothermal__/sound/geothermal-well.ogg" },
+      sound = { filename = "__LunaLightblade-Geothermal__/sound/geothermal-well.ogg" },
       apparent_volume = 1.5,
     },
     fast_replaceable_group = "geothermal-well",

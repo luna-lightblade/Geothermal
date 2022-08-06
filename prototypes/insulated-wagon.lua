@@ -6,8 +6,8 @@ if not Config.thermalWagon then return end
 
 local wagon = copyObject("fluid-wagon", "fluid-wagon", "insulated-wagon")
 local item = copyObject("item-with-entity-data", "fluid-wagon", "insulated-wagon")
---adds 22MB to mod - reparentSprites("base", "Geothermal", wagon)
-reparentSprites("base", "Geothermal", item)
+--adds 22MB to mod - reparentSprites("base", "LunaLightblade-Geothermal", wagon)
+reparentSprites("base", "LunaLightblade-Geothermal", item)
 
 local recipe = {
     type = "recipe",
@@ -31,7 +31,7 @@ local tech = {
 		"geothermal",
 		"low-density-structure"
     },
-    icon = "__Geothermal__/graphics/technology/wagon.png",
+    icon = "__LunaLightblade-Geothermal__/graphics/technology/wagon.png",
     effects =
     {
       {

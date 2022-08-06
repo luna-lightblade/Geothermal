@@ -44,7 +44,7 @@ data:extend({
     heat_capacity = "0J",
     base_color = colors[""].base,
     flow_color = {r=math.sqrt(colors[""].base.r), g = math.sqrt(colors[""].base.g), b=math.sqrt(colors[""].base.b)},--{r=0.8, g=0.7, b=0.7},
-	icon = "__Geothermal__/graphics/icons/water.png",
+	icon = "__LunaLightblade-Geothermal__/graphics/icons/water.png",
 	icon_size = 32,
     order = "a[fluid]-a[water]",
     pressure_to_speed_ratio = 0.3,
@@ -71,7 +71,7 @@ data:extend(
     heat_capacity = "1KJ",
     base_color = params.base,
     flow_color = {r=math.sqrt(params.base.r), g = math.sqrt(params.base.g), b=math.sqrt(params.base.b)},--{r=0.8, g=0.7, b=0.7},
-	icon = "__Geothermal__/graphics/icons/water.png",
+	icon = "__LunaLightblade-Geothermal__/graphics/icons/water.png",
 	icon_size = 32,
     order = "a[fluid]-a[water]",
     pressure_to_speed_ratio = 0.4,
@@ -85,7 +85,7 @@ table.insert(fluids, fluid)
 
 if color ~= "" then
 	fluid.icon = nil
-    fluid.icons = {{icon = "__Geothermal__/graphics/icons/water.png"}, {icon = "__Geothermal__/graphics/icons/overlay" .. color .. ".png"}}
+    fluid.icons = {{icon = "__LunaLightblade-Geothermal__/graphics/icons/water.png"}, {icon = "__LunaLightblade-Geothermal__/graphics/icons/overlay" .. color .. ".png"}}
 end
 
 local prod1 = {
@@ -116,7 +116,7 @@ data:extend(
 		},
 		results = prod1,
 		main_product= "",
-		icon = "__Geothermal__/graphics/icons/geothermal-exchange.png",
+		icon = "__LunaLightblade-Geothermal__/graphics/icons/geothermal-exchange.png",
 		icon_size = 32,
 		subgroup = "fluid-recipes",
 		order = "b[fluid-chemistry]-i[geothermal]",
@@ -135,7 +135,7 @@ data:extend(
 		},
 		results = prod1,
 		main_product= "",
-		icon = "__Geothermal__/graphics/icons/geothermal-exchange.png",
+		icon = "__LunaLightblade-Geothermal__/graphics/icons/geothermal-exchange.png",
 		icon_size = 32,
 		subgroup = "fluid-recipes",
 		order = "b[fluid-chemistry]-i[geothermal]",
@@ -155,7 +155,7 @@ data:extend(
 		},
 		results = prod2,
 		main_product= "",
-		icon = "__Geothermal__/graphics/icons/geothermal-exchange.png",
+		icon = "__LunaLightblade-Geothermal__/graphics/icons/geothermal-exchange.png",
 		icon_size = 32,
 		subgroup = "fluid-recipes",
 		order = "b[fluid-chemistry]-i[geothermal]",
@@ -174,7 +174,7 @@ data:extend(
 		},
 		results = prod2,
 		main_product= "",
-		icon = "__Geothermal__/graphics/icons/geothermal-exchange.png",
+		icon = "__LunaLightblade-Geothermal__/graphics/icons/geothermal-exchange.png",
 		icon_size = 32,
 		subgroup = "fluid-recipes",
 		order = "b[fluid-chemistry]-i[geothermal]",
@@ -192,7 +192,7 @@ data:extend(
   {
     type = "resource",
     name = "geothermal" .. color,
-    icon = "__Geothermal__/graphics/icons/geothermal-patch.png",
+    icon = "__LunaLightblade-Geothermal__/graphics/icons/geothermal-patch.png",
 	icon_size = 32,
     flags = {"placeable-neutral"},
     category = "geothermal",
@@ -225,7 +225,7 @@ data:extend(
     {
       sheet =
       {
-        filename = "__Geothermal__/graphics/entity/geothermal/patch-sheet" .. color .. ".png",
+        filename = "__LunaLightblade-Geothermal__/graphics/entity/geothermal/patch-sheet" .. color .. ".png",
         priority = "extra-high",
         width = 256,
         height = 192,
@@ -239,7 +239,7 @@ data:extend(
     {
       sheet =
       {
-        filename = "__Geothermal__/graphics/entity/geothermal/glow/patch-sheet" .. color .. ".png",
+        filename = "__LunaLightblade-Geothermal__/graphics/entity/geothermal/glow/patch-sheet" .. color .. ".png",
         priority = "extra-high",
         width = 256,
         height = 192,

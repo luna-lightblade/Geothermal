@@ -11,7 +11,7 @@ data:extend(
 		"advanced-electronics",
 		"concrete",
     },
-    icon = "__Geothermal__/graphics/technology/geothermal.png",
+    icon = "__LunaLightblade-Geothermal__/graphics/technology/geothermal.png",
     effects =
     {
       {
@@ -55,7 +55,7 @@ data:extend(
 		"advanced-electronics-2",
 		"production-science-pack"
     },
-    icon = "__Geothermal__/graphics/technology/geothermal.png",
+    icon = "__LunaLightblade-Geothermal__/graphics/technology/geothermal.png",
     effects =
     {--[[
       {
@@ -93,7 +93,7 @@ data:extend(
     {
 		"geothermal"
     },
-    icon = "__Geothermal__/graphics/technology/geothermal.png",
+    icon = "__LunaLightblade-Geothermal__/graphics/technology/geothermal.png",
     effects =
     {
       {

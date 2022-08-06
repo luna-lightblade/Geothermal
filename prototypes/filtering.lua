@@ -22,7 +22,7 @@ local function createGeothermalFiltering(input)
 			{type="fluid", name="geothermal-water", amount=amount}
 		},
 		main_product= "",
-		icon = "__Geothermal__/graphics/icons/geothermal-filtering.png",
+		icon = "__LunaLightblade-Geothermal__/graphics/icons/geothermal-filtering.png",
 		icon_size = 32,
 		subgroup = "fluid-recipes",
 		order = "b[fluid-chemistry]-i[geothermal]",
@@ -46,7 +46,7 @@ data:extend(
   {
     type = "item",
     name = "geothermal-filter",
-    icon = "__Geothermal__/graphics/icons/geothermal-filter.png",
+    icon = "__LunaLightblade-Geothermal__/graphics/icons/geothermal-filter.png",
 	icon_size = 32,
     flags = {},
     subgroup = "energy",
@@ -72,7 +72,7 @@ data:extend(
     {
     type = "assembling-machine",
     name = "geothermal-filter",
-    icon = "__Geothermal__/graphics/icons/geothermal-filter.png",
+    icon = "__LunaLightblade-Geothermal__/graphics/icons/geothermal-filter.png",
 	icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "geothermal-filter"},
@@ -85,13 +85,13 @@ data:extend(
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
-        filename = "__Geothermal__/graphics/entity/geothermal-filter/chemical-plant.png",
+        filename = "__LunaLightblade-Geothermal__/graphics/entity/geothermal-filter/chemical-plant.png",
         width = 122,
         height = 134,
         frame_count = 1,
         shift = util.by_pixel(-5, -4.5),
         hr_version = {
-          filename = "__Geothermal__/graphics/entity/geothermal-filter/hr-chemical-plant.png",
+          filename = "__LunaLightblade-Geothermal__/graphics/entity/geothermal-filter/hr-chemical-plant.png",
           width = 244,
           height = 268,
           frame_count = 1,
@@ -100,14 +100,14 @@ data:extend(
           }
       },
       {
-        filename = "__Geothermal__/graphics/entity/geothermal-filter/chemical-plant-shadow.png",
+        filename = "__LunaLightblade-Geothermal__/graphics/entity/geothermal-filter/chemical-plant-shadow.png",
         width = 175,
         height = 110,
         frame_count = 1,
         shift = util.by_pixel(31.5, 11),
         draw_as_shadow = true,
         hr_version = {
-          filename = "__Geothermal__/graphics/entity/geothermal-filter/hr-chemical-plant-shadow.png",
+          filename = "__LunaLightblade-Geothermal__/graphics/entity/geothermal-filter/hr-chemical-plant-shadow.png",
           width = 350,
           height = 219,
           frame_count = 1,
@@ -124,11 +124,11 @@ data:extend(
       sound =
       {
         {
-          filename = "__Geothermal__/sound/exchanger.ogg",
+          filename = "__LunaLightblade-Geothermal__/sound/exchanger.ogg",
           volume = 1.0
         }
       },
-      idle_sound = { filename = "__Geothermal__/sound/exchanger-idle.ogg", volume = 0.6 },
+      idle_sound = { filename = "__LunaLightblade-Geothermal__/sound/exchanger-idle.ogg", volume = 0.6 },
       apparent_volume = 1.5,
     },
     crafting_speed = 1,
